@@ -1,0 +1,220 @@
+*{
+    font-family: "Roboto", sans-serif;
+}
+.promo{
+    height: 800px;
+    background:url(../img/bg-promo.jpg) center center / cover no-repeat;
+    /* background-size: cover;  */
+    color: #ffffff;
+}
+header{
+    min-height: 51px;
+    background-color:#212121;
+}
+header nav{
+    background-color:#212121;
+    max-height: 51px;
+    position: fixed;
+    z-index: 3;
+    width: 100%;
+}
+.phone-active .phone{
+display: none;
+}
+.menu{
+    padding: 14px 70px;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.menu-item{
+    list-style: none;
+    text-align: center;
+    border-width: 0 0 0 2px;
+    padding-left: 28px;
+    border-style: dotted;
+    border-color:black;
+}
+.menu-item:first-child{
+    border: none;
+    padding-left: 0;
+}
+.menu-item:last-child{
+    padding-right: 0;
+}
+.menu-item-link{
+    text-decoration: none;
+    color:white;
+    font-weight: 300;
+    font-size: 15px;
+}
+.menu-item-link:hover{
+    text-decoration: none;
+    color: white;
+}
+/* бургер */
+.hamburger{
+    display: none;
+}
+/* почти шапка */
+/* logo */
+.subheader{
+    height: 84px;
+    background-color: rgba(0,0,0,0.6);
+}
+.subheader .logo{
+    max-width: 100%;
+    margin-top: 16px;
+}
+.subheader .logo-text{
+    font-weight: 100;
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.5);
+    padding-top: 5px;
+}
+/* .subheader{
+    height: 84px;
+} */
+/* тел */
+.subheader .phone{
+    font-weight: 300;
+    font-size: 12px;
+    text-align: right;
+    padding-top: 20px;
+}
+.subheader .phone a{
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 400;
+}
+.subheader .phone .point{
+    margin-bottom: 6px;
+    display: inline-block;
+    background-color: white;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+}
+/* кнопка */
+.subheader .header-button{
+    margin: 0 auto;
+    width: 172px;
+    height: 46px;
+    box-shadow: inset 0px -3px 0 0 rgba(0, 0, 0, 0.12);
+    border: 0px;
+    background-image: linear-gradient(to top, #1eacc7, #4ce2ff);
+    border-radius: 3px;
+    margin-top: 19px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.header-button:hover{
+    background-image: none;
+    background-color: #1eacc7;
+}
+
+/* заголовок */
+.promo-context{
+    text-align: center;
+}
+.promo-context .promo-title{
+    text-transform: uppercase;
+}
+.promo-context .promo-title h1{
+    margin-top: 60px;
+    line-height: 1;
+    margin-bottom: 0;
+    font-size: 60px;
+    font-weight: 900;
+}
+.promo-context .promo-title h2{
+    font-size: 36px;
+    font-weight: bold;
+}
+.promo-context .title-context{
+    font-size: 18px;
+    line-height: 1.33;
+    margin-bottom: 100px;
+}
+/* промокнопка */
+.promo-context .promo-button{
+    margin: 0 auto;
+    width: 259px;
+    height: 63px;
+    box-shadow: inset 0px -3px 0 0 rgba(0, 0, 0, 0.12);
+    border: 0px;
+    background-image: linear-gradient(to top, #1eacc7, #4ce2ff);
+    border-radius: 3px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.promo-button:hover{
+    background-image: none;
+    background-color: #1eacc7;
+}
+
+/* причини */
+.advantages{
+    text-align: center;
+    min-height: 900px;
+    padding-top: 50px;
+    padding-bottom: 65px;
+}
+.nameplate{
+    width: 112px;
+    height: 24px;
+    background-color: black;
+    text-transform: uppercase;
+    padding-top: 4px;
+    font-size: 11px;
+    font-weight: 100;
+    color: #ffffff;
+    margin: 0 auto;
+}
+.title{
+    text-transform: uppercase;
+    font-size: 38px;
+    font-weight: bold;
+    color: #222222;
+    margin: 0;
+    margin-top: 30px;
+    line-height: 1;
+}
+.advantages-item{
+    display: flex;
+    align-items: center;
+    padding-top: 35px;
+    padding-left: 35px;
+}
+
+.advantages-img{
+    border-radius: 100%;
+    width: 113px;
+    height: 113px;
+    background-color:#1eacc7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.advantages-text{
+    max-width: 341px;
+    max-height: 142px;
+    font-weight: 300;
+    font-size: 15px;
+    margin-left: 26px;
+    display: inline-block;
+    line-height: 1.4;
+}
+.advantages-text{
+    text-align: justify;
+}
+
+.item-title {
+    color: #1eacc7;
+    font-size: 17px;
+    font-weight: 400;
+    text-align: left;
+}
