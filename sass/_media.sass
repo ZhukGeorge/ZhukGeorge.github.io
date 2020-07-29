@@ -1,0 +1,370 @@
+@media (max-width:1199px)
+	.menu
+		&-item
+			padding-left: 15px
+			&-link
+				font-size: 14px
+
+	.promo-context
+		.promo-title
+			h1
+				font-size: 54px
+			h2
+				font-size: 33px
+		.title-context
+			font-size: 17px
+
+	.advantages
+		&-text
+			max-width: 291px
+			max-height: 190px
+
+	.mobile-app
+		.reasons-wrapper
+			.reasons-item
+				max-width: 300px
+
+@media (max-width:991px)
+	header
+		min-height: 44px
+	nav
+		max-height: 44px
+		.menu
+			padding: 10px 50px
+			&-item
+				padding-left: 4px
+				&-link
+					font-size: 12px
+
+	.subheader
+		.logo-text
+			font-size: 11px
+		.phone
+			font-size: 11px
+			a
+				font-size: 18px
+			.point
+				margin-bottom: 5px;
+		.header-button
+			font-size: 15px
+			width: 100%
+			height: 40px
+			margin-top: 21px
+	.promo
+		height: 700px
+	.promo-context
+		.promo-title
+			h1
+				font-size: 41px
+			h2
+				font-size: 26px
+		.title-context
+			font-size: 13px
+
+	.advantages
+		&-item
+			flex-direction: column
+			.advantages-text
+				margin-top: 10px
+				max-height: 193px
+				text-align: left
+  
+	.double-bg
+		min-height: 800px
+		.car
+			width: 100%          
+		.second-bg
+			height: 300px
+			.text
+				bottom: 60px
+
+	.mobile-app
+		.reasons-wrapper
+			.reasons-item
+				max-width: 230px
+
+	footer
+		.social
+			min-width: 183px
+		.market
+			text-align: right
+			width: 140px
+
+@media (max-width:767px)
+	header
+		position: relative
+		.menu
+			position: fixed
+			flex-direction: column
+			top: 0
+			left: -100%
+			width: 50%
+			height: 100vh
+			padding: 60px 15px
+			background-color: rgba(0,0 ,0 , 0.8)
+			transition: 0.6s all
+			&-item
+				border: none
+				padding-left: 0
+				&-link
+					font-size: 20px
+			&-active
+				left: 0
+		.hamburger
+			display: block
+			position: absolute
+			right: 10px
+			width: 26px
+			height: 12px
+			top: 50%
+			transform: translateY(-50%)
+			span
+				display: block
+				background-color: white
+				margin-top: 2px
+				width: 100%
+				height: 2px
+				transition: 0.6s all
+			&-active
+				span
+					margin-top: -2px
+					&:nth-child(1)
+						transform: translateY(6px) rotate(-45deg)
+					&:nth-child(2)
+						display: none
+					&:nth-child(3)
+						transform: translateY(6px) rotate(45deg)
+	.subheader
+		.logo
+			margin-top: 22px
+		.logo-text
+			display: none
+		.phone-hidden
+			display: none
+		.phone-active
+			display: flex
+			flex-direction: column
+			align-items: center
+			.phone
+				display: block
+				padding-top: 11px
+		.header-button
+			width: 200px
+			margin: 0
+
+	.promo-context
+		.promo-title
+			h1
+				font-size: 40px
+			h2
+				font-size: 28px
+		.title-context
+			font-size: 13px
+			margin-bottom: 30px
+		.promo-button
+			height: 53px
+			font-size: 14px
+
+	.advantages
+		&-item
+			.item-title
+				text-align: center
+			.advantages-text
+				text-align: justify
+	
+	.mobile-app
+		.reasons-item
+			box-sizing: content-box
+			.plus
+				box-sizing: border-box
+
+	footer
+		flex-direction: column
+		height: 300px
+		justify-content: center
+		div
+			&:first-child
+				order: 1
+				justify-content: center
+				margin-top: 5px
+			&:last-child
+				order: 2
+				width: 290px
+				margin-top: 5px
+			nav
+				min-height: 80px
+// mobile
+@media (max-width:575px)
+	.lol
+		min-height: 30px
+	header
+		position: fixed
+		width: 100vw
+		min-height: 30px
+		z-index: 3
+		.menu-item
+			width: 100%
+		.menu-item-link
+			display: block
+			width: 100%	
+			font-size: 16px
+				
+			
+			
+	.subheader
+		height: 60px
+		.logo
+			height: 15px
+			width: 130px
+		.phone
+			padding-top: 8px
+			a
+				font-size: 12px
+				line-height: 1
+			.point
+				background: none
+		.header-button
+			text-shadow: 0.7px 0.7px 0 rgba(0, 0, 0, 0.21)
+			font-size: 10px
+			height: 22px
+			width: 110px
+			margin-top: 4px
+			&:hover
+				background-image: linear-gradient(to top, #1eacc7, #4ce2ff)
+	.promo
+		height: 430px
+		position: relative
+		background-position: 60% 0% 
+	.promo-context
+		.promo-title
+			h1
+				font-size: 30px
+			h2
+				margin-top: 20px
+				margin-bottom: 0
+				font-size: 20px
+		.title-context
+			display: none
+		.promo-button
+			height: 50px
+			width: 210px
+			font-size: 16px
+			position: absolute
+			bottom: 35px
+			left: 50%
+			transform: translateX(-50%)
+			&:hover
+				background-image: linear-gradient(to top, #1eacc7, #4ce2ff)
+	
+	.advantages
+		padding: 22px 0px 50px 0px
+		&-wrapper
+			width: 320px
+			margin: 0 auto
+		.title
+			font-size: 16px
+			margin-top: 15px
+		&-item
+			padding: 26px 15px 0 15px
+			
+			// max-width: 320px
+			.item-title
+				text-align: left
+			.advantages-text
+				margin-left: 0
+		&-img
+			width: 100px
+			height: 100px
+	
+	.mobile-app
+		padding: 22px 0px 43px 0px
+		.title
+			font-size: 16px
+			margin-top: 15px
+		.slogan
+			font-size: 14px
+			margin-top: 11px
+		.reasons-wrapper
+			.reasons-item
+				margin-top: 30px
+				background-size: 100% 100%
+				.reasons-title
+					font-size: 18px
+	
+	.double-bg
+		min-height: 390px
+		.first-bg
+			height: 390px
+			padding-top: 25px
+			img.car
+				padding-top: 35px
+			.text-active
+				display: inline-block
+				font-size: 17px
+				color: #ffffff
+				margin-top: 23px
+				width: 250px
+		.title
+			display: none
+		.slogan
+			display: none
+		.second-bg
+			display: none
+
+	.terms
+		padding: 25px 0
+		.title
+			margin-top: 15px
+			font-size: 16px
+		.list-block
+			margin-top: 28px
+			margin-bottom: 0
+			ul
+				margin-top: -10px
+				margin-bottom: 0
+			.list-title
+				font-size: 16px
+			.list-context-item
+				font-size: 14px
+				margin-bottom: 10px
+			.list-bottom-text
+				font-size: 14px
+	
+	.world
+		padding-top: 25px
+		padding-bottom: 30px
+		height: 360px
+		.title-wrapper
+			.title
+				margin-top: 15px
+				font-size: 16px
+			.title-description
+				font-size: 15px
+				margin-top: 10px
+		.bottom-text
+			width: 193px
+			font-size: 15px
+			bottom: 30px
+	
+	footer
+		height: 245px
+		padding: 0 18px 20px 18px
+		.line
+			width: 253px
+		.bottom-nav
+			width: 290px
+			.main-nav-item
+				font-size: 14px
+			.secondary-nav
+				ul
+					font-size: 11px
+					flex-wrap: wrap
+					width: 220px
+					margin: 10px auto
+		.nav
+			margin-top: -35px
+		div	
+			.social
+				margin-top: 15px	
+			.market
+				margin-top: 15px	

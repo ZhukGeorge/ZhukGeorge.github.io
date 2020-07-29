@@ -1,0 +1,253 @@
+.slogan
+		font-size: 17px
+		color: $color-black
+		margin-top: 19px
+.mobile-app
+	background: url(../img/bg-MobileApp.jpg)
+	text-align: center
+	min-height: 864px
+	padding: 48px 0 80px 0
+	.reasons-wrapper
+		margin-top: 13px
+		.reasons-item
+			margin: 0 auto 
+			margin-top: 19px 
+			min-height: 280px
+			max-width: 320px
+			position: relative
+			background-position: center center
+			.reasons-title
+				font-size: 24px
+				color: #ffffff
+				text-transform: uppercase
+				padding-top: 91px
+				line-height: 1
+			.plus
+				position: absolute
+				display: flex
+				justify-content: center
+				align-items: center
+				background-color: black
+				border-radius: 100%
+				width: 26px
+				height: 26px
+				padding: 6px
+				bottom: 35px
+				left: 50%
+				transform: translateX(-50%)
+				cursor: pointer
+				&::before
+					content: ''
+					display: block
+					width: 14px
+					height: 2px
+					background-color: $color-blue	
+				&::after
+					content: ''
+					position: absolute
+					left: 50%
+					transform: translateX(-50%)
+					display: block
+					height: 14px
+					width: 2px			
+					background-color: $color-blue
+				&:hover
+					&::after, &::before
+						background-color: red
+
+
+		.registration
+			background-image: url(../img/icons/MobileApp-registration.png)
+			background-size: cover;
+		.reliable
+			background-image: url(../img/icons/MobileApp-reliable.png)
+			background-size: cover;
+		.price
+			background-image: url(../img/icons/MobileApp-price.png)
+			background-size: cover;
+		.payment
+			background-image: url(../img/icons/MobileApp-payment.png)
+			background-size: cover;
+		.connection
+			background-image: url(../img/icons/MobileApp-connection.png)
+			background-size: cover;
+		.split
+			background-image: url(../img/icons/MobileApp-split.png)
+			background-size: cover;
+
+.double-bg
+	min-height: 900px
+	text-align: center
+	.first-bg
+		max-height: 500px
+		background-color: #070716
+		padding-top: 57px
+		.nameplate
+			background-color: white
+			color: #070716
+		.title
+			color: white
+		.slogan
+			color: white
+		img.car
+			padding-top: 56px
+		.text-active
+			display: none
+	.second-bg
+		background-image: url(../img/bg-MobileApp.jpg)
+		height: 400px
+		position: relative
+		z-index: -1
+		.text
+			position: absolute
+			font-weight: 300
+			max-width: 300px
+			bottom: 120px
+			left: 50%
+			transform: translateX(-50%)
+			font-size: 17px
+			color: $color-black
+.terms
+	
+	min-height: 920px 
+	padding: 68px 0 84px 0
+	.nameplate
+		text-align: center
+	.title
+		text-align: center
+	.list
+		&-block
+			margin-top: 33px
+			margin-bottom: 33px
+			&-nbm
+				margin-bottom: 0px
+		&-title
+			color: $color-blue
+			font-size: 22px
+			line-height: 1
+		&-context
+			margin-top: 22px
+			&-item
+				list-style: none
+				color: $color-black
+				line-height: 1.41;
+				font-weight: 300
+				font-size: 17px
+				margin-bottom: 15px
+				position: relative
+				
+				
+				&::before
+					content: ''
+					display: block
+					width: 21px
+					height: 20px
+					background: url(../img/icons/check.png)
+					position: absolute
+					left: -32px
+					top: 3px
+					
+
+			.red-plus::before
+				background: url(../img/icons/check-red.png) center (center / cover) no-repeat
+
+		&-bottom-text
+			color: $color-blue
+		.red
+			color: #ff5656
+	
+.world
+	height: 717px
+	background: url(../img/bg-world.jpg) center (center / cover) no-repeat
+	padding: 49px 0
+	position: relative
+	.title-wrapper
+		text-align: center
+		.nameplate
+			color: black
+			background-color: white
+			width: 76px;
+		.title
+			color: white
+		.title-description
+			margin-top: 20px
+			line-height: 1
+			color: white
+			font-size: 17px
+	.bottom-text
+		position: absolute
+		bottom: 49px
+		left: 50%
+		transform: translateX(-50%)
+		font-size: 15px
+		color: #1fbad6
+		text-transform: uppercase
+		text-decoration: none
+
+footer
+	padding: 14px 44px 35px 23px
+	min-height: 152px
+	display: flex
+	justify-content: space-between
+	align-items: center
+	
+	.line
+		width: 299px
+		height: 4px
+		background-color: #1fbad6
+		margin: 0 auto
+	.bottom-nav
+		margin-top: 30px
+		text-align: center
+		text-transform: uppercase
+		width: 360px
+		
+		.main-nav
+			padding: 0 10px 0 10px
+			line-height: 1
+			&-item a
+				color: #070716
+				text-decoration: none
+			ul
+				padding: 0
+				display: flex
+				justify-content: space-between
+				font-weight: 300
+				list-style: none
+				font-size: 15px
+ 				
+		.secondary-nav
+			line-height: 1
+			&-item a
+				text-decoration: none
+				font-size: 11px
+				color: #999999
+				font-weight: 300
+			ul
+				padding: 0
+				display: flex
+				justify-content: space-between
+				list-style: none			
+	.language
+		display: block
+		text-transform: uppercase
+		color: #1fbad6
+		font-size: 11px
+		text-decoration: none
+		text-align: center
+		
+	.social
+		min-width: 310px
+		display: flex
+		&-item
+			display: flex
+			justify-content: center
+			align-items: center
+			width: 32px
+			height: 32px
+			background-color: black
+			border-radius: 100%
+			margin-right: 7px
+			text-decoration: none
+			i
+				color: white
