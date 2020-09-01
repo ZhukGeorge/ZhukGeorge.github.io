@@ -1,4 +1,5 @@
 
+
 $(document).ready(function(){
     $('.slaider__wrapper').slick({
       prevArrow: '<button type="button" class="slick-prev"><img src="../img/icons/arrow.png"></img></button>',
@@ -163,6 +164,7 @@ $(document).ready(function(){
 });
 
 });
+new WOW().init();
 
 
 
