@@ -2,8 +2,8 @@
 
 $(document).ready(function(){
     $('.slaider__wrapper').slick({
-      prevArrow: '<button type="button" class="slick-prev"><img src="../img/icons/arrow.png"></img></button>',
-      nextArrow: '<button type="button" class="slick-next"><img src="../img/icons/arrow.png"></img></button>',
+      prevArrow: '<button type="button" class="slick-prev"><img src="img/icons/arrow.png"></img></button>',
+      nextArrow: '<button type="button" class="slick-next"><img src="img/icons/arrow.png"></img></button>',
       adaptiveHeight: true,
       responsive:[{
         breakpoint: 950,
