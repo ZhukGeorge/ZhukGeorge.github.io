@@ -1,0 +1,36 @@
+.header{
+    height: 85px;
+    padding: 20px 0;
+    
+    &__contacts{
+        padding: 0;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__contact{
+        display: flex;
+        align-items: flex-start;
+        img{
+            width: 28px;
+            height: 21px;
+        }
+        .address{
+            font-weight: 300;
+            font-size: 12px;
+            padding-left: 11px;
+            line-height: 1.2;
+            span{
+                font-weight: bold;
+                font-size: 14px;
+                
+            }
+            a{
+                text-decoration: none;
+                color: black;
+            }
+        }
+    }
+
+}

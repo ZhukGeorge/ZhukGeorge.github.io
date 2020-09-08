@@ -1,0 +1,16 @@
+.WithPrengi{
+    height: 1000px;
+    // width: 1000px;
+    &__questions{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__question{
+        
+        // width: 300px;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
